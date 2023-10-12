@@ -4,6 +4,7 @@ import port1 from "../img/portImages/TaskTracker.jpg";
 // import port4 from "../img/portImages/CodrImage.png";
 import port5 from "../img/portImages/NasaApi.png";
 import port6 from "../img/portImages/ExpenseTrackerPic.jpg";
+import port7 from "../img/portImages/port7.jpg"
 
 const portfolios = [
   
@@ -46,6 +47,19 @@ const portfolios = [
     paragraph:
       "App made for tracking personal expenses. Made using React and Visual Studio Code",
   },
+  {
+    id: 4,
+    category: "Vanilla JS Projects",
+    link1: "https://65282fda1565124f9a6198ec--preeminent-sorbet-04f637.netlify.app/",
+    link2: "www.github.com",
+    icon1: "Website",
+    icon2: "Y",
+    image: port7,
+    title: "Weather App",
+    paragraph:
+      "App made for finding the current weather for any location in the world. Made using React and Visual Studio Code",
+  },
+
 ];
 
 export default portfolios;
